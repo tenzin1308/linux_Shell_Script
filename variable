@@ -1,0 +1,15 @@
+#! bin/bash
+
+#this is the example of variable 
+
+## variable of string
+x="This is my first script code"
+echo $x
+
+##variable of numeric type
+y=5
+echo $y
+
+## variable of command
+z=$(cal -y)
+echo $z

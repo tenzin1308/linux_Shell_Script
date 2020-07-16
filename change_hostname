@@ -1,0 +1,11 @@
+#! bin/bash
+
+## script to change the hostname
+
+# current_hostname=$HOSTNAME
+echo "Current hostname = $HOSTNAME "
+echo "Enter the new hostname"
+read new_hostname
+hostnamectl set-hostname $new_hostname
+echo "Sucessfully Change reboot"
+reboot

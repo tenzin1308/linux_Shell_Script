@@ -1,0 +1,8 @@
+#! bin/bash
+
+## Sample of input 
+echo "Enter your name"
+read name
+echo "You entered "$name
+
+
